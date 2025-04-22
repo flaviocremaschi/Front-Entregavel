@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/background_login.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.container{
+    width: 300px;
+    border: 5px;
+    border-radius: 20px;
+    border-color: rgb(111, 111, 200);
+    border-style:outset;
+    
+}
+
+.container h2{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.campo input{
+    width: 97%;
+    height: 25px;
+    margin-left: 1px;
+    background: rgb(209, 209, 209);
+    border: none;
+    border: 2px solid rgb(39, 39, 119);
+    border-radius: 5px;
+}
+
+.container button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(59, 59, 133);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

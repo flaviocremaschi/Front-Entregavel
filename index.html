@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel ="stylesheet" href = "css/estilo.css">
+    <script src = "js/index.js"></script>
+</head>
+<body>
+    <img src = "img/logo_novo.png" class = "logo">
+
+    <div class = "container">
+        <form>
+            <h2>Faça Login</h2>
+
+            <div class = "campo">
+                <label for = "email">Email</label><br>
+                <input type = "email" id = "email" placeholder = "Digite seu email" onchange = "validarBotao()"><br><br>
+
+                <label for = "senha">Senha</label><br>
+                <input type = "password" id = "senha" placeholder = "Digite sua senha" onchange = "validarBotao()"><br><br>
+            </div>
+
+            <input type = "checkbox" id = "conectado" value = "Lembrar minha senha">
+            <label for = "conectado">Lembrar minha senha</label><br><br>
+
+            <button type = "button" id = "botaoLogin" onclick="mensagemConsole()" disabled>Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
